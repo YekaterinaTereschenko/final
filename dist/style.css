@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  margin: auto;
+  background-color: #f7f7f7;
+}
+
+.add {
+  width: 100%;
+  background-color: #93FF82;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120.5px 0;
+  font-size: 24px;
+}
+
+.title-one {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+.title-one-header {
+  width: 97.7777777778%;
+  background-color: black;
+  margin: auto;
+  display: flex;
+  border-radius: 10px;
+  padding: 15px 24px;
+  margin: 32px 16px 16px;
+}
+.title-one-header-other {
+  display: flex;
+  color: white;
+  width: 90%;
+  justify-content: end;
+}
+.title-one-header-other input {
+  background-color: #302C2C;
+  background-image: url(image/lupa.svg);
+  border-radius: 10px;
+  border: none;
+  width: 48.4140233723%;
+}
+.title-one-header-other .social {
+  font-size: 18px;
+  padding-left: 29px;
+  display: flex;
+  align-items: center;
+}
+.title-one-header-other .rus {
+  font-size: 18px;
+  padding-left: 56px;
+  display: flex;
+  align-items: center;
+}
+.title-one-header .read {
+  background-color: white;
+  width: 100%;
+}
+.title-one .read {
+  width: 97.7777777778%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.title-one .read .slide {
+  border: 2px solid #808080;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 20px;
+}
+.title-one .read .slide:hover {
+  background-color: black;
+  color: white;
+}
+.title-one .read .slide1 {
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  width: 97.7777777778%;
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+.main-pin {
+  width: 22.7272727273%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  background-color: white;
+  border-radius: 10px;
+}
+.main-pin-content .line {
+  display: flex;
+  gap: 12px;
+  padding: 8px 0 0 0;
+}
+.main-pin-content .line-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+.main-pin-content .line-text a {
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: #93FF82;
+  padding: 4px 8px;
+  font-size: 14px;
+  color: black;
+}
+.main-title {
+  width: 52.2727272727%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: white;
+  border-radius: 10px;
+}
+.main-title-text {
+  font-size: 36px;
+  padding: 16px 0 0 0;
+}
+.main-news {
+  width: 22.7272727273%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 16px;
+  background-color: white;
+  border-radius: 10px;
+}
