@@ -92,7 +92,8 @@
   width: 97.7777777778%;
   display: flex;
   justify-content: space-between;
-  margin: 32px 0;
+  padding: 32px 0;
+  margin: auto;
 }
 .main-pin {
   width: 22.7272727273%;
@@ -135,9 +136,229 @@
 }
 .main-news {
   width: 22.7272727273%;
-  display: flex;
-  flex-direction: column;
   padding: 12px 16px;
   background-color: white;
   border-radius: 10px;
+}
+.main-news-text h4 {
+  border-bottom: 1px solid #E3E3E3;
+  font-size: 16px;
+  padding-bottom: 12px;
+}
+.main-news-line {
+  border-bottom: 1px solid #E3E3E3;
+  padding: 12px 0 12px 0;
+}
+.main-news-line h5 {
+  font-size: 18px;
+}
+.main-news-line a {
+  color: #777777;
+}
+.main-news-line p {
+  color: white;
+}
+
+.red {
+  width: 97.7777777778%;
+  margin: auto;
+  display: flex;
+  gap: 12px;
+}
+.red-block {
+  width: 32.6704545455%;
+}
+.red-block-content {
+  padding: 16px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+.red-block-content h3 {
+  font-size: 36px;
+  width: 81.7391304348%;
+}
+.red-block-content p {
+  padding: 43px 0 16px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+}
+.red-block-content-text p {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  color: #E3E3E3;
+  font-size: 12px;
+}
+.red-block-content-text p img {
+  padding: 0 5px 0 13px;
+}
+
+.pink {
+  width: 97.7777777778%;
+  margin: auto;
+  padding: 24px 0 48px;
+  display: flex;
+  gap: 16px;
+}
+.pink-a {
+  width: 32.6704545455%;
+  background: #93FF82;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 920px;
+  font-size: 24px;
+}
+.pink-blocks {
+  width: 66.1931818182%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.pink-blocks-block {
+  width: 100%;
+  display: flex;
+}
+.pink-blocks-block-content {
+  width: 49.356223176%;
+  background-color: white;
+  border-radius: 10px;
+}
+.pink-blocks-block-content h3 {
+  margin: 16px 16px 43px 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 36px;
+  width: 85.2173913043%;
+}
+.pink-blocks-block-content p {
+  margin: 0 16px 16px;
+  width: 85.2173913043%;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: black;
+}
+.pink-blocks-block-content-text p {
+  display: flex;
+  align-items: center;
+  margin: 0 16px;
+  color: black;
+  font-size: 12px;
+}
+.pink-blocks-block-content-text p img {
+  padding: 0 5px 0 13px;
+}
+
+.a5 {
+  width: 97.7777777778%;
+  margin: auto;
+  background: #93FF82;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 363px;
+  font-size: 24px;
+}
+
+.yellow {
+  width: 97.7777777778%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 16px 32px;
+}
+.yellow-block {
+  width: 100%;
+  display: flex;
+}
+.yellow-block-image img {
+  height: 100%;
+}
+.yellow-block-content {
+  width: 32.6704545455%;
+  background-color: #302C2C;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+.yellow-block-content-1 {
+  width: 75.652173913%;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+.yellow-block-content-1 h1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 48px;
+}
+.yellow-block-content-1 p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 18px;
+  padding-top: 48px;
+}
+.yellow-block-content-2 {
+  transform: rotate(90deg) translate(170px);
+  transform-origin: top right;
+  display: flex;
+  justify-content: unset;
+  align-items: unset;
+  flex-wrap: nowrap;
+  z-index: 99;
+  width: 155px;
+  overflow: initial;
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+.yellow-block-content-2 p {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.test {
+  width: 97.7777777778%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.test-line {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.test-line-text {
+  font-size: 42px;
+  background-color: #E3E3E3;
+  border-radius: 10px;
+  padding: 24px 36px;
+}
+.test-line-text h3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 110%;
 }
