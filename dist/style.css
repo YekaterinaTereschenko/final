@@ -45,7 +45,9 @@
 }
 .title-one-header-other input {
   background-color: #302C2C;
-  background-image: url(image/lupa.svg);
+  background-image: url(../image/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: center right 3%;
   border-radius: 10px;
   border: none;
   width: 48.4140233723%;
@@ -276,7 +278,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 24px 16px 32px;
+  padding: 24px 0 32px;
 }
 .yellow-block {
   width: 100%;
@@ -361,4 +363,299 @@
   font-weight: 600;
   font-size: 42px;
   line-height: 110%;
+}
+
+.more {
+  width: 97.7777777778%;
+  height: 140px;
+  margin: auto;
+  background-color: black;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -0.019em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.every {
+  width: 97.7777777778%;
+  margin: auto;
+  padding: 26px 0 16px;
+}
+.every-pink {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background: #FFC7F3;
+  padding: 48px;
+  gap: 32.8px;
+}
+.every-pink p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 100%;
+}
+.every-black {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: black;
+  border-radius: 10px;
+}
+.every-black input {
+  width: 60%;
+  letter-spacing: -0.019em;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  padding: 52px 32px;
+  background: #272727;
+  border-radius: 10px;
+  border: 0;
+}
+.every-black .button {
+  width: 36.9318181818%;
+  text-align: center;
+  background: #EA2E34;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -0.019em;
+  padding: 52px 0;
+  color: white;
+}
+
+.prog {
+  width: 97.7777777778%;
+  margin: auto;
+  display: flex;
+  gap: 16px;
+}
+.prog-small {
+  width: 32.6704545455%;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 24px;
+}
+.prog-small h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 110%;
+  font-feature-settings: "liga" off;
+  padding-top: 136px;
+}
+.prog-big {
+  width: 66.1931818182%;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prog-big .h1 {
+  display: flex;
+  justify-content: space-between;
+}
+.prog-big .h1 h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 110%;
+}
+.prog-big .h1 button {
+  width: 34.3347639485%;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 110%;
+  background: #FFCB45;
+  border-radius: 10px;
+  padding: 14px;
+}
+.prog-big .h2 {
+  display: flex;
+  justify-content: space-between;
+}
+.prog-big .h2 h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+}
+
+.idea {
+  width: 97.7777777778%;
+  margin: auto;
+  padding: 16px 0 60px;
+  display: flex;
+}
+.idea-text {
+  width: 66.1931818182%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 16px;
+}
+.idea-text h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 110%;
+  width: 45.1716738197%;
+}
+.idea-text-btn {
+  display: flex;
+  justify-content: end;
+}
+.idea-text-btn button {
+  background-color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 110%;
+  border: 0;
+  border-radius: 10px;
+  padding: 13px 61px 15px;
+}
+.idea .hor img {
+  height: 100%;
+}
+.idea-social {
+  width: 21.0227272727%;
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+}
+.idea-social img {
+  width: 50px;
+}
+.idea-social .one {
+  padding: 24px 0 24px 45px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.idea-social .one img:nth-child(2) {
+  align-self: center;
+}
+.idea-social .one img:nth-child(3) {
+  align-self: flex-end;
+}
+.idea-social .two {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.idea-social .two img:nth-child(1) {
+  margin: 59px 0 0 61px;
+}
+.idea-social .two img:nth-child(2) {
+  margin: 76px 0 0 41px;
+}
+
+footer {
+  width: 97.7777777778%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.title-one-header-other-tablet {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .add {
+    padding: 54.5px 0;
+  }
+
+  .title-one {
+    width: 99.7395833333%;
+    padding: 24px 0;
+  }
+  .title-one-header {
+    width: 96.0835509138%;
+    margin: auto;
+    gap: 16px;
+    padding: 12px;
+  }
+  .title-one-header-other {
+    width: auto;
+    justify-content: start;
+    gap: 16px;
+  }
+  .title-one-header-other input {
+    width: 286px;
+  }
+  .title-one-header-other .social, .title-one-header-other .rus {
+    display: none;
+  }
+  .title-one-header-other-tablet {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .title-one .read {
+    padding-top: 8px;
+    width: 96.0835509138%;
+  }
+  .title-one .read .slide {
+    color: #808080;
+  }
+  .title-one .read div:nth-child(5) {
+    display: none;
+  }
+  .title-one .read div:nth-child(6) {
+    display: none;
+  }
+  .title-one .read div:nth-child(7) {
+    display: none;
+  }
+  .title-one .read div:nth-child(8) {
+    display: none;
+  }
+  .title-one .read .slide1 {
+    display: none;
+  }
 }
