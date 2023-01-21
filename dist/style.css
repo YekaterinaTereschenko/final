@@ -600,7 +600,19 @@ footer {
   display: none;
 }
 
+.tab {
+  display: none;
+}
+
+.mob {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  #tab-none {
+    display: none;
+  }
+
   .container {
     width: 100%;
   }
@@ -906,5 +918,288 @@ footer {
   .every-black .button {
     width: 100%;
     font-size: 51.25px;
+  }
+
+  .prog {
+    flex-wrap: wrap;
+  }
+  .prog-small {
+    width: 100%;
+    height: 736px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+  }
+  .prog-small img {
+    width: 506px;
+  }
+  .prog-small h1 {
+    font-size: 48px;
+    color: black;
+  }
+  .prog-small #tab {
+    display: block;
+  }
+  .prog-small #desc {
+    display: none;
+  }
+  .prog-big {
+    width: 100%;
+  }
+  .prog-big .h1 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-size: 48px;
+  }
+  .prog-big .h1 .tab {
+    display: block;
+  }
+  .prog-big .h1 button {
+    width: 100%;
+    font-size: 36px;
+    padding: 29px 0;
+    background-color: #FF4308;
+    color: white;
+    border: 0;
+  }
+  .prog-big .h2 {
+    display: none;
+  }
+
+  .idea {
+    flex-wrap: wrap;
+  }
+  .idea-text {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .idea-text h1 {
+    width: 100%;
+  }
+  .idea-text h1 .tab {
+    display: block;
+  }
+  .idea-text-btn button {
+    width: 100%;
+    font-size: 48px;
+    padding: 30.5px 0;
+  }
+  .idea .hor {
+    display: none;
+  }
+  .idea .tab {
+    display: block;
+  }
+  .idea-social {
+    padding: 49px;
+    width: 555px;
+    height: 637px;
+    margin-left: 29px;
+  }
+  .idea-social img {
+    width: 92.16px;
+  }
+  .idea-social .one {
+    padding: 0;
+  }
+
+  footer .desc {
+    display: none;
+  }
+  footer .tab {
+    display: block;
+  }
+}
+@media (max-width: 376px) {
+  .title-one {
+    padding: 8px 0 16px;
+  }
+  .title-one-header {
+    justify-content: center;
+  }
+  .title-one-header-logo img {
+    width: 142px;
+  }
+  .title-one-header-other {
+    display: none;
+  }
+  .title-one .read {
+    display: none;
+  }
+
+  .main-pin {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .main-pin-image {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  .main-pin-image img {
+    width: 355px;
+  }
+  .main-pin h3 {
+    padding: 12px 0;
+  }
+  .main-pin-content {
+    height: 234px;
+    padding: 0;
+  }
+  .main-news {
+    overflow-x: hidden;
+  }
+  .main-title-image {
+    background-color: #9C9CFF;
+    height: 220px;
+    border-radius: 10px;
+  }
+  .main-title-image img {
+    display: none;
+  }
+  .main-title-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .main-title-text .mob {
+    display: block;
+  }
+  .main-title-text h3 {
+    font-size: 24px;
+    width: 60%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+  .main-title-text #tab {
+    display: block;
+    font-size: 18px;
+    padding: 12px 0;
+  }
+
+  .red {
+    flex-direction: column;
+  }
+  .red-block:nth-child(3) {
+    display: block;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .test {
+    gap: 8px;
+  }
+  .test-line {
+    height: 86px;
+  }
+  .test-line-test :nth-child(1) {
+    display: none;
+  }
+  .test-line-test .mob {
+    display: block;
+  }
+  .test-line-image {
+    width: 86px;
+    height: 100%;
+  }
+  .test-line-text {
+    width: 249px;
+    padding: 12px;
+    height: 86px;
+  }
+  .test-line-text h3 {
+    font-size: 24px;
+  }
+
+  .every-pink {
+    padding: 12px;
+    margin-bottom: 8px;
+  }
+  .every-pink img {
+    width: 103px;
+  }
+  .every-pink p {
+    font-size: 25px;
+    width: 100%;
+  }
+  .every-black input {
+    font-size: 25px;
+    padding: 8px 0;
+  }
+  .every-black .button {
+    font-size: 25px;
+    padding: 15px 0;
+  }
+
+  .prog-small {
+    height: 359px;
+  }
+  .prog-small img {
+    width: 247px;
+  }
+  .prog-small h1 {
+    padding: 0;
+    font-size: 25px;
+  }
+  .prog-big .h1 button {
+    background-color: #EA2E34;
+  }
+
+  .idea {
+    padding: 16px 0;
+  }
+  .idea-text h1 {
+    font-size: 25px;
+    padding-bottom: 49px;
+  }
+  .idea-text-btn button {
+    font-size: 25px;
+  }
+  .idea img {
+    width: 80px;
+  }
+  .idea-social {
+    width: 271px;
+    height: 311px;
+    margin-left: 14px;
+    padding: 24px;
+  }
+  .idea-social img {
+    width: 45px;
+  }
+
+  footer img {
+    width: 359px;
+    margin-bottom: 78px;
+  }
+
+  .fixed {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    padding: 8px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+  }
+  .fixed-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #777777;
+    justify-content: space-between;
+  }
+  .fixed-btn:nth-child(1) {
+    color: white;
   }
 }
